@@ -3,7 +3,7 @@ const canvas = document.querySelector('#confetti');
 
 const jsConfetti = new JSConfetti();
 
-button.addEventListener('click', ()=>{
+button.addEventListener('click',()=>{
     jsConfetti.addConfetti({
         emojis: ['🔥', '⚡️', '💥', '✨'],
     }).then(() => jsConfetti.addConfetti())
